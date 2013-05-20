@@ -24,12 +24,12 @@ package com.graphics
 		
 		private var _degradado_activo:Boolean = false;
 		
-		public function FracRoundRect(alto:Number,ancho:Number,curva_a:int=10,curva_b:int=10,curva_c:int=10,curva_d:int=10,color:uint=0xFFFFFF)
+		public function FracRoundRect(ancho:Number, alto:Number, curva_a:int=10, curva_b:int=10, curva_c:int=10, curva_d:int=10, color:uint=0xFFFFFF)
 		{
 			super();
 			
-			_alto = alto;
 			_ancho = ancho;
+			_alto = alto;
 			_curva_a = curva_a;
 			_curva_b = curva_b;
 			_curva_c = curva_c;

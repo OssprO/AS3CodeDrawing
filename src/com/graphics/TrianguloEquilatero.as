@@ -14,7 +14,7 @@ package com.graphics
 		
 		private var _altura:Number;
 		
-		public function TrianguloEquilatero(color:uint=0xFFFFFF, lado:Number=100)
+		public function TrianguloEquilatero(lado:Number=100, color:uint=0xFFFFFF)
 		{
 			super();
 			
