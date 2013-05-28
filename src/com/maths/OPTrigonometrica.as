@@ -1,8 +1,8 @@
 ﻿package com.maths{
 	import flash.geom.Point;
-	public class trigonometrica {
+	public class OPTrigonometrica {
 
-		public function trigonometrica() {
+		public function OPTrigonometrica() {
 			// constructor code
 		}
 		public static function divisioncirculo(divisiones:Number):Number{

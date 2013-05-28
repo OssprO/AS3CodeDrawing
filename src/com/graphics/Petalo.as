@@ -2,7 +2,7 @@ package  com.graphics{
 	import flash.display.Sprite;
 	import flash.geom.Point;
 	
-	import com.maths.geometrica;
+	import com.maths.OPGeometrica;
 	
 	public class Petalo extends Sprite {
 		private var _punto_origen:Point;
@@ -43,7 +43,7 @@ package  com.graphics{
 			var steps:Number = amplitud_arco/2;
 			var dosPI:Number = 2 * Math.PI;
 			var angulo_inicio:Number = _grados_inicio/360;
-			var alto:Number = new Number(geometrica.htrianguloeq(_radio));
+			var alto:Number = new Number(OPGeometrica.htrianguloeq(_radio));
 			
 			var angleStep:Number = (amplitud_arco/360) / steps;
 			var angle:Number = new Number();

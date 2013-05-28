@@ -5,7 +5,7 @@ package com.graphics
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	
-	import com.maths.geometrica;
+	import com.maths.OPGeometrica;
 	
 	public class TrianguloEquilatero extends Sprite
 	{
@@ -25,7 +25,7 @@ package com.graphics
 		}
 		
 		private function init():void{
-			_altura = new Number(geometrica.htrianguloeq(_lado));
+			_altura = new Number(OPGeometrica.htrianguloeq(_lado));
 			this.graphics.clear();
 			this.graphics.beginFill(_color,1);
 			this.graphics.moveTo(0,_altura);
